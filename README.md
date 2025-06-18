@@ -1,4 +1,4 @@
-# 🚀 Smart Pub Manager
+# Smart Pub Manager
 
 **Intelligent Flutter dependency management for VS Code**
 
@@ -10,51 +10,51 @@ Transform your Flutter development workflow with **Smart Pub Manager** - the mos
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔍 **Visual Package Search**
+### Visual Package Search
 Advanced search interface with rich package information, popularity metrics, and one-click installation.
 
-### 📊 **Dependency Health Monitoring**
+### Dependency Health Monitoring
 Real-time health scores, outdated package detection, and visual status indicators.
 
-### 🎯 **Smart Categorization**
+### Smart Categorization
 Automatic package categorization with visual icons for UI, State Management, Networking, and more.
 
-### 🛠️ **Intelligent Filtering**
+### Intelligent Filtering
 Powerful filtering system with search, category filters, and sorting options.
 
-### ⚡ **Conflict Resolution**
+### Conflict Resolution
 Automatic detection and resolution of dependency version conflicts.
 
 ---
 
-## 📸 Screenshots & Features Gallery
+## Screenshots & Features Gallery
 
 <div align="center">
 
-### 🎨 **Visual Package Browser**
+### Visual Package Browser
 *Modern search interface with rich package information*
 
 <img src="screenshots/Pub Dev In VS CODE.png" alt="Visual Package Search" width="800"/>
 
 ---
 
-### 📦 **Smart Dependency Tree**
+### Smart Dependency Tree
 *Intelligent sidebar with categorization and health monitoring*
 
 <img src="screenshots/Tree Package + Info.png" alt="Dependency Tree" width="800"/>
 
 ---
 
-### ℹ️ **Rich Package Information**
+### Rich Package Information
 *Detailed tooltips with version info, categories, and quick actions*
 
 <img src="screenshots/Info Tooltip.png" alt="Package Information" width="800"/>
 
 ---
 
-### 🚀 **One-Click Package Addition**
+### One-Click Package Addition
 *Streamlined workflow for adding dependencies to your project*
 
 <img src="screenshots/Add Package.png" alt="Add Package" width="800"/>
@@ -63,7 +63,7 @@ Automatic detection and resolution of dependency version conflicts.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -87,9 +87,9 @@ Automatic detection and resolution of dependency version conflicts.
 
 ---
 
-## 📚 Comprehensive Usage Guide
+## Comprehensive Usage Guide
 
-### 🔍 **Visual Package Search**
+### Visual Package Search
 
 Access the modern search interface in multiple ways:
 
@@ -100,47 +100,47 @@ Access the modern search interface in multiple ways:
 ```
 
 **Features:**
-- 🎯 **Category Filtering**: UI Components, State Management, Networking, etc.
-- 📊 **Visual Metrics**: Popularity bars, likes, pub points, health scores
-- 🏷️ **Smart Tags**: Flutter, Dart, category badges
-- 🔄 **Live Sorting**: By relevance, popularity, name, or pub points
-- ⚡ **Quick Actions**: Add to project, view on pub.dev
+- **Category Filtering**: UI Components, State Management, Networking, etc.
+- **Visual Metrics**: Popularity bars, likes, pub points, health scores
+- **Smart Tags**: Flutter, Dart, category badges
+- **Live Sorting**: By relevance, popularity, name, or pub points
+- **Quick Actions**: Add to project, view on pub.dev
 
-### 📦 **Dependency Management Sidebar**
+### Dependency Management Sidebar
 
 The Smart Pub sidebar provides comprehensive project overview:
 
-#### **Project Health Dashboard**
-- 📊 **Health Score**: Visual percentage of up-to-date dependencies
-- ⚠️ **Update Alerts**: Clear indicators for outdated packages
-- 📈 **Statistics**: Total packages, outdated count, dependency types
+#### Project Health Dashboard
+- **Health Score**: Visual percentage of up-to-date dependencies
+- **Update Alerts**: Clear indicators for outdated packages
+- **Statistics**: Total packages, outdated count, dependency types
 
-#### **Advanced Filtering System**
+#### Advanced Filtering System
 ```
-🔍 Search & Filters (expandable section)
-├── 🔍 Search Input - Filter by package name or description
-├── 📦 All Dependencies - Show everything
-├── ⚠️ Outdated - Show only packages needing updates
-├── 🚀 Production - Runtime dependencies only
-├── 🔧 Development - Dev dependencies only
-├── 🎨 UI Components - Flutter widgets and UI packages
-├── 🗄️ State Management - Provider, Bloc, Riverpod, etc.
-└── 🌐 Networking - HTTP, API, and network packages
+Search & Filters (expandable section)
+├── Search Input - Filter by package name or description
+├── All Dependencies - Show everything
+├── Outdated - Show only packages needing updates
+├── Production - Runtime dependencies only
+├── Development - Dev dependencies only
+├── UI Components - Flutter widgets and UI packages
+├── State Management - Provider, Bloc, Riverpod, etc.
+└── Networking - HTTP, API, and network packages
 ```
 
-#### **Smart Categorization**
+#### Smart Categorization
 Every package is automatically categorized with appropriate icons:
-- 🎨 **UI Components**: Flutter widgets, animations, UI libraries
-- 🗄️ **State Management**: Provider, Bloc, Riverpod, GetX
-- 🌐 **Networking**: HTTP, Dio, GraphQL, REST APIs
-- 📱 **Storage**: SharedPreferences, SQLite, Hive, local storage
-- 🧭 **Navigation**: GoRouter, AutoRoute, routing solutions
-- 🔥 **Firebase**: Firebase services and integrations
-- 📷 **Media**: Image/video handling, camera, permissions
-- 🔧 **Utilities**: Helper libraries, tools, utilities
-- 🧪 **Testing**: Testing frameworks and tools
+- **UI Components**: Flutter widgets, animations, UI libraries
+- **State Management**: Provider, Bloc, Riverpod, GetX
+- **Networking**: HTTP, Dio, GraphQL, REST APIs
+- **Storage**: SharedPreferences, SQLite, Hive, local storage
+- **Navigation**: GoRouter, AutoRoute, routing solutions
+- **Firebase**: Firebase services and integrations
+- **Media**: Image/video handling, camera, permissions
+- **Utilities**: Helper libraries, tools, utilities
+- **Testing**: Testing frameworks and tools
 
-### ⚙️ **Configuration Options**
+### Configuration Options
 
 Customize Smart Pub Manager in VS Code settings:
 
@@ -164,9 +164,9 @@ Customize Smart Pub Manager in VS Code settings:
 
 ---
 
-## 🎯 Command Reference
+## Command Reference
 
-### **Main Commands**
+### Main Commands
 | Command | Shortcut | Description |
 |---------|----------|-------------|
 | `Smart Pub: Search Flutter Packages (Visual)` | `Ctrl+Shift+P` | Open visual search interface |
@@ -175,14 +175,14 @@ Customize Smart Pub Manager in VS Code settings:
 | `Smart Pub: Update All Dependencies` | - | Check and update all packages |
 | `Smart Pub: Resolve Dependency Conflicts` | - | Auto-resolve version conflicts |
 
-### **Filter & Sort Commands**
+### Filter & Sort Commands
 | Command | Description |
 |---------|-------------|
 | `Smart Pub: Change Dependency Sorting` | Switch between name, status, category sorting |
 | `Smart Pub: Clear All Filters` | Reset all filters and search |
 | `Smart Pub: Refresh Dependencies` | Reload dependency information |
 
-### **Utility Commands**
+### Utility Commands
 | Command | Description |
 |---------|-------------|
 | `Smart Pub: Analyze Current pubspec.yaml` | Deep analysis of current file |
@@ -190,30 +190,30 @@ Customize Smart Pub Manager in VS Code settings:
 
 ---
 
-## 🔧 Developer Guide
+## Developer Guide
 
-### **Architecture Overview**
+### Architecture Overview
 
 Smart Pub Manager is built with a modular architecture:
 
 ```
-📁 src/
-├── 🎯 services/
+src/
+├── services/
 │   ├── visual-search-service.ts    # Modern webview search interface
 │   ├── pub-api-service.ts          # pub.dev API integration
 │   ├── workspace-service.ts        # Flutter project management
 │   ├── cache-service.ts            # Performance caching layer
 │   └── dependency-resolver.ts      # Conflict resolution engine
-├── 📊 providers/
+├── providers/
 │   ├── dependency-tree-provider.ts # Sidebar tree view with filtering
 │   ├── pubspec-analyzer.ts         # Real-time pubspec.yaml analysis
 │   ├── pubspec-hover-provider.ts   # Rich hover information
 │   └── pubspec-code-action-provider.ts # Quick fix suggestions
-└── ⚡ commands/
+└── commands/
     └── search-packages-command.ts  # Legacy text-based search
 ```
 
-### **Key Technologies**
+### Key Technologies
 
 - **TypeScript**: Type-safe development
 - **VS Code Extension API**: Native IDE integration
@@ -222,32 +222,32 @@ Smart Pub Manager is built with a modular architecture:
 - **YAML Parser**: pubspec.yaml manipulation
 - **Local Caching**: Performance optimization
 
-### **Extension Activation**
+### Extension Activation
 
 The extension automatically activates when:
 - A `pubspec.yaml` file is detected in the workspace
 - Flutter project structure is identified
 - User executes any Smart Pub command
 
-### **Performance Features**
+### Performance Features
 
-- ⚡ **Smart Caching**: API responses cached for 1 hour by default
-- 🔄 **Lazy Loading**: Components loaded on demand
-- 📊 **Efficient Filtering**: Client-side filtering for instant results
-- 🎯 **Optimized Queries**: Minimal API calls with intelligent batching
+- **Smart Caching**: API responses cached for 1 hour by default
+- **Lazy Loading**: Components loaded on demand
+- **Efficient Filtering**: Client-side filtering for instant results
+- **Optimized Queries**: Minimal API calls with intelligent batching
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to get started:
 
-### **Development Setup**
+### Development Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/flutter-dev/smart-pub-manager.git
-   cd smart-pub-manager
+   git clone https://github.com/dvillegastech/smart_pub.git
+   cd smart_pub
    ```
 
 2. **Install dependencies:**
@@ -264,50 +264,50 @@ We welcome contributions! Here's how to get started:
    - Press `F5` to open Extension Development Host
    - Test your changes in the new VS Code window
 
-### **Project Structure**
+### Project Structure
 
 ```
-smart-pub-manager/
-├── 📁 src/                    # TypeScript source code
-├── 📁 images/                 # Icons and visual assets
-├── 📁 screenshots/            # Documentation screenshots
-├── 📄 package.json            # Extension manifest
-├── 📄 tsconfig.json          # TypeScript configuration
-└── 📄 README.md              # This documentation
+smart_pub/
+├── src/                    # TypeScript source code
+├── images/                 # Icons and visual assets
+├── screenshots/            # Documentation screenshots
+├── package.json            # Extension manifest
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # This documentation
 ```
 
-### **Contribution Guidelines**
+### Contribution Guidelines
 
-- 🐛 **Bug Reports**: Use GitHub issues with detailed reproduction steps
-- ✨ **Feature Requests**: Describe the use case and expected behavior
-- 🔧 **Pull Requests**: Include tests and update documentation
-- 📝 **Code Style**: Follow existing TypeScript patterns and VS Code conventions
+- **Bug Reports**: Use GitHub issues with detailed reproduction steps
+- **Feature Requests**: Describe the use case and expected behavior
+- **Pull Requests**: Include tests and update documentation
+- **Code Style**: Follow existing TypeScript patterns and VS Code conventions
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
-### **Upcoming Features**
+### Upcoming Features
 
-- 🔒 **Security Scanning**: Automated vulnerability detection
-- 📱 **Flutter Version Compatibility**: Version-specific package recommendations
-- 🎨 **Custom Themes**: Personalized UI themes for the search interface
-- 📊 **Analytics Dashboard**: Dependency usage statistics and insights
-- 🤖 **AI Recommendations**: Smart package suggestions based on project type
-- 🔄 **Dependency Migration**: Automated migration between similar packages
+- **Security Scanning**: Automated vulnerability detection
+- **Flutter Version Compatibility**: Version-specific package recommendations
+- **Custom Themes**: Personalized UI themes for the search interface
+- **Analytics Dashboard**: Dependency usage statistics and insights
+- **AI Recommendations**: Smart package suggestions based on project type
+- **Dependency Migration**: Automated migration between similar packages
 
-### **Community Requests**
+### Community Requests
 
-Vote for features on our [GitHub Discussions](https://github.com/flutter-dev/smart-pub-manager/discussions)!
+Vote for features on our [GitHub Discussions](https://github.com/dvillegastech/smart_pub/discussions)!
 
 ---
 
-## 🆘 Support & Troubleshooting
+## Support & Troubleshooting
 
-### **Common Issues**
+### Common Issues
 
 <details>
-<summary><strong>🔍 Search not working</strong></summary>
+<summary><strong>Search not working</strong></summary>
 
 **Solution:**
 1. Check internet connection
@@ -317,7 +317,7 @@ Vote for features on our [GitHub Discussions](https://github.com/flutter-dev/sma
 </details>
 
 <details>
-<summary><strong>📦 Dependencies not updating</strong></summary>
+<summary><strong>Dependencies not updating</strong></summary>
 
 **Solution:**
 1. Ensure `pubspec.yaml` is valid YAML
@@ -327,7 +327,7 @@ Vote for features on our [GitHub Discussions](https://github.com/flutter-dev/sma
 </details>
 
 <details>
-<summary><strong>🎯 Sidebar not showing</strong></summary>
+<summary><strong>Sidebar not showing</strong></summary>
 
 **Solution:**
 1. Open Flutter project with `pubspec.yaml`
@@ -335,22 +335,22 @@ Vote for features on our [GitHub Discussions](https://github.com/flutter-dev/sma
 3. Reload window: `Ctrl+Shift+P` → "Developer: Reload Window"
 </details>
 
-### **Getting Help**
+### Getting Help
 
-- 📚 **Documentation**: Check this README for detailed instructions
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/flutter-dev/smart-pub-manager/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/flutter-dev/smart-pub-manager/discussions)
-- 📧 **Contact**: villegas.john@example.com
+- **Documentation**: Check this README for detailed instructions
+- **Bug Reports**: [GitHub Issues](https://github.com/dvillegastech/smart_pub/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/dvillegastech/smart_pub/discussions)
+- **Contact**: dvillegastech@gmail.com
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Flutter Team**: For the amazing framework
 - **pub.dev**: For the comprehensive package registry
@@ -363,6 +363,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ for the Flutter community**
 
-[⭐ Star on GitHub](https://github.com/flutter-dev/smart-pub-manager) • [📦 VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=villegas-john.smart-pub-manager) • [🐛 Report Issues](https://github.com/flutter-dev/smart-pub-manager/issues)
+[⭐ Star on GitHub](https://github.com/dvillegastech/smart_pub) • [📦 VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=villegas-john.smart-pub-manager) • [🐛 Report Issues](https://github.com/dvillegastech/smart_pub/issues)
 
 </div> 
