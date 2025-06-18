@@ -1,0 +1,251 @@
+{
+  "name": "smart-pub-manager",
+  "displayName": "Smart Pub Manager",
+  "description": "Intelligent Flutter dependency management for VS Code",
+  "version": "1.0.0",
+  "publisher": "villegas-john",
+  "author": {
+    "name": "Villegas John",
+    "email": "villegas.john@example.com"
+  },
+  "icon": "images/icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flutter-dev/smart-pub-manager"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets",
+    "Formatters"
+  ],
+  "keywords": [
+    "flutter",
+    "dart",
+    "pub",
+    "dependencies",
+    "pubspec"
+  ],
+  "activationEvents": [
+    "workspaceContains:pubspec.yaml"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "smartPub.searchPackages",
+        "title": "Search Flutter Packages (Text)",
+        "category": "Smart Pub",
+        "icon": "$(search)"
+      },
+      {
+        "command": "smartPub.visualSearch",
+        "title": "Search Flutter Packages (Visual)",
+        "category": "Smart Pub",
+        "icon": "$(search-view-icon)"
+      },
+      {
+        "command": "smartPub.addDependency",
+        "title": "Add Dependency to pubspec.yaml",
+        "category": "Smart Pub",
+        "icon": "$(add)"
+      },
+      {
+        "command": "smartPub.updateDependencies",
+        "title": "Update All Dependencies",
+        "category": "Smart Pub",
+        "icon": "$(arrow-up)"
+      },
+      {
+        "command": "smartPub.refreshDependencies",
+        "title": "Refresh Dependencies",
+        "category": "Smart Pub",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "smartPub.updateAllDependencies",
+        "title": "Update All Dependencies",
+        "category": "Smart Pub",
+        "icon": "$(arrow-up)"
+      },
+      {
+        "command": "smartPub.showDependencyActions",
+        "title": "Show Dependency Actions",
+        "category": "Smart Pub",
+        "icon": "$(gear)"
+      },
+      {
+        "command": "smartPub.clearCache",
+        "title": "Clear Cache",
+        "category": "Smart Pub",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "smartPub.resolveDependencyConflicts",
+        "title": "Resolve Dependency Conflicts",
+        "category": "Smart Pub",
+        "icon": "$(warning)"
+      },
+      {
+        "command": "smartPub.updatePackage",
+        "title": "Update Package",
+        "category": "Smart Pub",
+        "icon": "$(arrow-up)"
+      },
+      {
+        "command": "smartPub.analyzeCurrentFile",
+        "title": "Analyze Current pubspec.yaml",
+        "category": "Smart Pub",
+        "icon": "$(search)"
+      },
+      {
+        "command": "smartPub.searchDependencies",
+        "title": "Search Dependencies in Sidebar",
+        "category": "Smart Pub",
+        "icon": "$(search)"
+      },
+      {
+        "command": "smartPub.toggleFilter",
+        "title": "Toggle Dependency Filter",
+        "category": "Smart Pub"
+      },
+      {
+        "command": "smartPub.changeSorting",
+        "title": "Change Dependency Sorting",
+        "category": "Smart Pub",
+        "icon": "$(sort-precedence)"
+      },
+      {
+        "command": "smartPub.clearFilters",
+        "title": "Clear All Filters",
+        "category": "Smart Pub",
+        "icon": "$(clear-all)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "smartPub.visualSearch",
+        "key": "ctrl+shift+p",
+        "mac": "cmd+shift+p",
+        "when": "resourceExtname == .yaml && resourceFilename == pubspec.yaml"
+      },
+      {
+        "command": "smartPub.searchDependencies",
+        "key": "ctrl+f",
+        "mac": "cmd+f",
+        "when": "focusedView == smartPubDependencies"
+      }
+    ],
+    "views": {
+      "smartPubManager": [
+        {
+          "id": "smartPubDependencies",
+          "name": "Flutter Dependencies"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "smartPubManager",
+          "title": "Smart Pub Manager",
+          "icon": "$(package)"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "smartPub.visualSearch",
+          "when": "view == smartPubDependencies",
+          "group": "navigation@1",
+          "icon": "$(search-view-icon)"
+        },
+        {
+          "command": "smartPub.searchPackages",
+          "when": "view == smartPubDependencies",
+          "group": "navigation@2",
+          "icon": "$(search)"
+        },
+        {
+          "command": "smartPub.refreshDependencies",
+          "when": "view == smartPubDependencies",
+          "group": "navigation@3",
+          "icon": "$(refresh)"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "smartPub.showDependencyActions",
+          "when": "view == smartPubDependencies && viewItem == dependency",
+          "group": "inline"
+        },
+        {
+          "command": "smartPub.showDependencyActions",
+          "when": "view == smartPubDependencies && viewItem == outdatedDependency",
+          "group": "inline"
+        },
+        {
+          "command": "smartPub.updateAllDependencies",
+          "when": "view == smartPubDependencies && viewItem == updates"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "smartPub.visualSearch",
+          "when": "workspaceContains:pubspec.yaml"
+        },
+        {
+          "command": "smartPub.toggleFilter",
+          "when": "false"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Smart Pub Manager",
+      "properties": {
+        "smartPub.autoRunPubGet": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically run 'flutter pub get' when pubspec.yaml changes"
+        },
+        "smartPub.enableCache": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable local cache for package search results"
+        },
+        "smartPub.cacheExpiration": {
+          "type": "number",
+          "default": 3600,
+          "description": "Cache expiration time in seconds (default: 1 hour)"
+        },
+        "smartPub.maxSearchResults": {
+          "type": "number",
+          "default": 20,
+          "description": "Maximum number of search results to display"
+        },
+        "smartPub.defaultSearchMode": {
+          "type": "string",
+          "enum": ["visual", "text"],
+          "default": "visual",
+          "description": "Default search mode when adding dependencies"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+} 
