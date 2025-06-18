@@ -2,7 +2,9 @@
 
 **Intelligent Flutter dependency management for VS Code**
 
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://coff.ee/dvillegas)
+<a href="https://coff.ee/dvillegas" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150" />
+</a>
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/villegas-john.smart-pub-manager?style=for-the-badge&logo=visual-studio-code&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=villegas-john.smart-pub-manager)
 [![Downloads](https://img.shields.io/visual-studio-marketplace/d/villegas-john.smart-pub-manager?style=for-the-badge&logo=visual-studio-code&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=villegas-john.smart-pub-manager)
